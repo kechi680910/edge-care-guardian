@@ -1,0 +1,37 @@
+{
+  "site_id": "demo-care-home",
+  "privacy": {
+    "retain_raw_media": false,
+    "event_log_days": 30,
+    "allowed_egress_fields": [
+      "event_id",
+      "event_type",
+      "severity",
+      "zone",
+      "timestamp",
+      "confidence",
+      "resident_token"
+    ]
+  },
+  "fall_detector": {
+    "impact_velocity_mps": -1.3,
+    "lying_frames": 2,
+    "minimum_confidence": 0.8,
+    "cooldown_seconds": 30
+  },
+  "wandering_detector": {
+    "minimum_confidence": 0.75
+  },
+  "medication_detector": {
+    "medium_minutes": 15,
+    "high_minutes": 60
+  },
+  "distress_detector": {
+    "confirmation_cues": 2,
+    "cue_window_seconds": 20.0
+  },
+  "escalation": {
+    "critical_ack_seconds": 30,
+    "high_ack_seconds": 120
+  }
+}

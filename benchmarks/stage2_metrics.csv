@@ -1,0 +1,6 @@
+metric,target,measured,unit,test_method,status
+fall_event_recall,>=95,,percent,subject-disjoint staged scenario suite,pending
+false_alerts,<=1,,alerts_per_room_day,72-hour scripted-room pilot,pending
+event_to_alert_latency,<=250,,milliseconds,sensor-ingress to router-output timestamps,pending
+offline_critical_rules,100,,percent,network-disconnect scenario suite,pending
+raw_private_media_uploaded,0,,bytes,packet capture and egress audit,pending

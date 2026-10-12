@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+models/artifacts/
+local-data/
+.env
+# Generated at demo runtime; kept out of git to avoid stale receipts.
+demo-receipt.json
+demo-output.json
